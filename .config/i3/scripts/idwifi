@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+import os
+import commands
+
+var = commands.getoutput("iwconfig wlp8s0f0")
+saida = ""
+for i in var[29:]:
+    saida += i
+    if i == "\n":
+        break
+if saida == "off/any  \n":
+    print (saida[:-3])
+else:
+    print (saida[1:-4])
+

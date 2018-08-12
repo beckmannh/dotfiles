@@ -1,0 +1,44 @@
+#!/usr/bin/python
+
+import os
+import commands
+import calendar
+
+arquivo = open("/home/henrique/notas")
+arquivo = arquivo.readlines()
+nota = commands.getoutput("cat /home/henrique/notas | rofi -dmenu -p Notas: ")
+
+def main():
+    global nota
+    while nota != '':
+        adicionar()
+        remover()
+        nota = commands.getoutput("cat /home/henrique/notas | rofi -dmenu -p Notas: ")
+
+def adicionar():
+    global nota
+    arquivo = open("/home/henrique/notas")
+    arquivo = arquivo.readlines()
+    nota += "\n"
+    if nota not in arquivo and len(nota) > 1:
+        date = commands.getoutput("date +'%D'")
+        notas = open("/home/henrique/notas", "a")
+        notas.write("%s %s"%(date, nota))
+        notas.close()
+        os.system("notify-send -i /home/henrique/.keep.png 'Nota Adicionada'")
+
+def remover():
+    global nota
+    arquivo = open("/home/henrique/notas")
+    arquivo = arquivo.readlines()
+    if nota in arquivo:
+        confirma = commands.getoutput("echo 'sim\nnao' | rofi -dmenu -p Remover: ")
+        if confirma == "sim":
+            arquivo.remove(nota)
+            notas = open("/home/henrique/notas", "w")
+            for i in arquivo:
+                notas.write(i)
+            notas.close()
+            os.system("notify-send -i /home/henrique/.keep.png 'Nota Removida'")
+
+main()

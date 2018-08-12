@@ -1,0 +1,28 @@
+#!/usr/bin/python
+
+import commands
+
+search = commands.getoutput("echo 'Duckduckgo\nGitHub\nGoogle\nOlx\nReddit\nSaraiva\nTranslate\nWikipedia\nYoutube' | dmenu -i -p Search:")
+
+if search == 'Duckduckgo':
+    commands.getoutput ("exec dmenu -p 'Duckduckgo:' | xargs -I{} xdg-open https://duckduckgo.com/?q={}")
+elif search == 'GitHub':
+    commands.getoutput ("exec dmenu -p 'GitHub:' | xargs -I{} xdg-open 'https://duckduckgo.com/?q=!github {}'")
+elif search == 'Google':
+    commands.getoutput ("exec dmenu -p 'Google:' | xargs -I{} xdg-open https://google.com.br/search?q={}")
+elif search == 'Olx':
+    commands.getoutput ("exec dmenu -p 'Olx:' | xargs -I{} xdg-open http://pa.olx.com.br/?q={}")
+elif search == 'Reddit':
+    commands.getoutput ("exec dmenu -p 'Reddit:' | xargs -I{} xdg-open https://www.reddit.com/search?q={}")
+elif search == 'Wikipedia':
+    commands.getoutput ("exec dmenu -p 'Wikipedia:' | xargs -I{} xdg-open https://pt.wikipedia.org/wiki/{}")
+elif search == 'Youtube':
+    commands.getoutput ("exec dmenu -p 'Youtube:' | xargs -I{} xdg-open https://www.youtube.com/results?search_query={}")
+elif search == 'Saraiva':
+    commands.getoutput ("exec dmenu -p 'Saraiva:' | xargs -I{} xdg-open https://busca.saraiva.com.br/busca?q={}")
+elif search == 'Translate':
+    translate = commands.getoutput ("echo 'pt/en\nen/pt' | dmenu -i -p Translate:")
+    if translate == 'pt/en':
+        commands.getoutput("exec dmenu -p 'Translate pt/en:' | xargs -I{} xdg-open https://translate.google.com/?sl#pt/en/{}")
+    elif translate == 'en/pt':
+        commands.getoutput("exec dmenu -p 'Translate en/pt:' | xargs -I{} xdg-open https://translate.google.com/?sl#en/pt/{}")

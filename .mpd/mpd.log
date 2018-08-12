@@ -1,0 +1,186 @@
+Aug 03 15:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 15:45 : update: added /Raul seixas - Metamorfose ambulante.mp3
+Aug 03 15:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 15:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 15:46 : client: [0] opened from 127.0.0.1:47130
+Aug 03 15:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 15:47 : client: [0] closed
+Aug 03 15:48 : client: [1] opened from 127.0.0.1:47174
+Aug 03 15:48 : client: [1] closed
+Aug 03 15:53 : exception: "pulse audio" [pulse] failed to pause: failed to connect the stream: Connection terminated
+Aug 03 15:59 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 03 16:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 16:20 : client: [0] opened from 127.0.0.1:55536
+Aug 03 16:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 03 16:21 : client: [0] closed
+Aug 03 16:23 : client: [1] opened from 127.0.0.1:55604
+Aug 03 16:23 : client: [1] closed
+Aug 03 16:24 : client: [2] opened from 127.0.0.1:55616
+Aug 03 16:24 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 03 16:24 : exception: Not playing
+Aug 03 16:25 : client: [2] closed
+Aug 03 16:25 : client: [3] opened from 127.0.0.1:55630
+Aug 03 16:25 : client: [3] closed
+Aug 03 16:25 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 04 15:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 15:40 : client: [0] opened from 127.0.0.1:46254
+Aug 04 15:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 15:41 : client: [0] closed
+Aug 04 16:00 : client: [1] opened from 127.0.0.1:46358
+Aug 04 16:00 : client: [1] closed
+Aug 04 16:10 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 04 20:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 20:27 : client: [0] opened from 127.0.0.1:56522
+Aug 04 20:28 : client: [0] closed
+Aug 05 01:00 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 19:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 19:08 : client: [0] opened from 127.0.0.1:34764
+Aug 10 19:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 19:08 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 19:08 : client: [0] closed
+Aug 10 19:08 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 22:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 22:48 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 22:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 22:48 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 22:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 22:49 : client: [0] opened from 127.0.0.1:36454
+Aug 10 22:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 22:49 : client: [0] closed
+Aug 10 22:49 : client: [1] opened from 127.0.0.1:36456
+Aug 10 22:49 : client: [1] closed
+Aug 10 22:53 : client: [2] opened from 127.0.0.1:36488
+Aug 10 22:53 : client: [2] closed
+Aug 10 23:01 : client: [3] opened from 127.0.0.1:36538
+Aug 10 23:01 : client: [3] closed
+Aug 10 23:04 : client: [4] opened from 127.0.0.1:36544
+Aug 10 23:04 : client: [4] closed
+Aug 10 23:04 : client: [5] opened from 127.0.0.1:36546
+Aug 10 23:04 : client: [5] closed
+Aug 10 23:05 : client: [6] opened from 127.0.0.1:36552
+Aug 10 23:05 : client: [6] closed
+Aug 10 23:06 : client: [7] opened from 127.0.0.1:36554
+Aug 10 23:06 : client: [7] closed
+Aug 10 23:06 : client: [8] opened from 127.0.0.1:36556
+Aug 10 23:06 : client: [8] closed
+Aug 10 23:07 : client: [9] opened from 127.0.0.1:36558
+Aug 10 23:07 : client: [9] closed
+Aug 10 23:07 : client: [10] opened from 127.0.0.1:36560
+Aug 10 23:07 : client: [10] closed
+Aug 10 23:10 : client: [11] opened from 127.0.0.1:36568
+Aug 10 23:10 : client: [11] closed
+Aug 10 23:12 : client: [12] opened from 127.0.0.1:36576
+Aug 10 23:12 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:12 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:12 : client: [12] closed
+Aug 10 23:12 : client: [13] opened from 127.0.0.1:36578
+Aug 10 23:12 : client: [13] closed
+Aug 10 23:13 : client: [14] opened from 127.0.0.1:36586
+Aug 10 23:13 : client: [14] closed
+Aug 10 23:13 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:13 : client: [0] opened from 127.0.0.1:36592
+Aug 10 23:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:13 : client: [0] closed
+Aug 10 23:15 : client: [1] opened from 127.0.0.1:36602
+Aug 10 23:15 : client: [1] closed
+Aug 10 23:17 : client: [2] opened from 127.0.0.1:36618
+Aug 10 23:17 : client: [2] closed
+Aug 10 23:19 : client: [3] opened from 127.0.0.1:36626
+Aug 10 23:19 : client: [3] closed
+Aug 10 23:21 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:23 : client: [0] opened from 127.0.0.1:36696
+Aug 10 23:23 : client: [0] closed
+Aug 10 23:23 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:23 : client: [0] opened from [::1]:38304
+Aug 10 23:23 : client: [1] opened from [::1]:38306
+Aug 10 23:23 : client: [1] closed
+Aug 10 23:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:23 : client: [0] closed
+Aug 10 23:23 : client: [2] opened from [::1]:38308
+Aug 10 23:23 : client: [3] opened from [::1]:38310
+Aug 10 23:23 : client: [3] closed
+Aug 10 23:24 : client: [2] closed
+Aug 10 23:24 : client: [4] opened from [::1]:38312
+Aug 10 23:24 : client: [5] opened from [::1]:38314
+Aug 10 23:24 : client: [5] closed
+Aug 10 23:24 : client: [4] closed
+Aug 10 23:24 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:24 : client: [0] opened from [::1]:38320
+Aug 10 23:24 : client: [0] closed
+Aug 10 23:24 : client: [1] opened from [::1]:38358
+Aug 10 23:24 : client: [1] closed
+Aug 10 23:24 : client: [2] opened from [::1]:38368
+Aug 10 23:24 : client: [2] closed
+Aug 10 23:25 : client: [3] opened from [::1]:38376
+Aug 10 23:25 : client: [3] closed
+Aug 10 23:25 : client: [4] opened from [::1]:38390
+Aug 10 23:25 : client: [5] opened from [::1]:38392
+Aug 10 23:25 : client: [5] closed
+Aug 10 23:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:25 : client: [4] closed
+Aug 10 23:25 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:26 : client: [0] opened from [::1]:38410
+Aug 10 23:26 : client: [1] opened from [::1]:38412
+Aug 10 23:26 : client: [1] closed
+Aug 10 23:26 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:26 : client: [2] opened from [::1]:38414
+Aug 10 23:26 : client: [2] closed
+Aug 10 23:27 : client: [3] opened from [::1]:38416
+Aug 10 23:27 : client: [4] opened from [::1]:38418
+Aug 10 23:27 : client: [4] closed
+Aug 10 23:27 : client: [5] opened from [::1]:38420
+Aug 10 23:27 : client: [6] opened from [::1]:38422
+Aug 10 23:27 : client: [6] closed
+Aug 10 23:29 : client: [5] closed
+Aug 10 23:29 : client: [0] closed
+Aug 10 23:30 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:31 : client: [3] closed
+Aug 10 23:31 : client: [7] opened from [::1]:38430
+Aug 10 23:31 : client: [7] closed
+Aug 10 23:31 : client: [8] opened from [::1]:38432
+Aug 10 23:31 : client: [9] opened from [::1]:38434
+Aug 10 23:31 : client: [9] closed
+Aug 10 23:31 : client: [8] closed
+Aug 10 23:31 : client: [10] opened from [::1]:38436
+Aug 10 23:31 : client: [11] opened from [::1]:38438
+Aug 10 23:31 : client: [11] closed
+Aug 10 23:31 : client: [10] closed
+Aug 10 23:32 : client: [12] opened from [::1]:38440
+Aug 10 23:32 : client: [13] opened from [::1]:38442
+Aug 10 23:32 : client: [13] closed
+Aug 10 23:32 : client: [12] closed
+Aug 10 23:32 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 10 23:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 23:32 : client: [0] opened from [::1]:38444
+Aug 10 23:32 : client: [1] opened from [::1]:38446
+Aug 10 23:32 : client: [1] closed
+Aug 10 23:33 : client: [0] closed
+Aug 10 23:34 : client: [2] opened from [::1]:38450
+Aug 10 23:34 : client: [3] opened from [::1]:38452
+Aug 10 23:34 : client: [3] closed
+Aug 10 23:34 : client: [2] closed
+Aug 10 23:42 : client: [4] opened from [::1]:38464
+Aug 10 23:42 : client: [5] opened from [::1]:38466
+Aug 10 23:42 : client: [5] closed
+Aug 10 23:42 : client: [4] closed
+Aug 11 00:41 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 11 23:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 23:01 : client: [0] opened from [::1]:47902
+Aug 11 23:01 : client: [1] opened from [::1]:47904
+Aug 11 23:01 : client: [1] closed
+Aug 11 23:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 23:01 : client: [0] closed
+Aug 11 23:11 : client: [2] opened from [::1]:47982
+Aug 11 23:11 : client: [3] opened from [::1]:47984
+Aug 11 23:11 : client: [3] closed
+Aug 11 23:11 : client: [2] closed
+Aug 11 23:17 : client: [4] opened from [::1]:48032
+Aug 11 23:17 : client: [5] opened from [::1]:48034
+Aug 11 23:17 : client: [5] closed
+Aug 11 23:17 : client: [4] closed

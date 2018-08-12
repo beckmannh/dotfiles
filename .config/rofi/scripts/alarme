@@ -1,0 +1,42 @@
+#!/usr/bin/python
+
+import os
+import commands
+
+alarme  = commands.getoutput("echo 'adicionar;remover' | rofi -sep ';' -width 15 -hide-scrollbar -separator-style none -lines 2 -xoffset 453 -yoffset -320 -dmenu -p Alarme:")
+
+alarmes = "/home/henrique/.alarmes"
+ico = "/home/henrique/.clock.png"
+
+def main():
+    adc_alarme()
+    rm_alarme()
+
+def adc_alarme():
+    if alarme == "adicionar":
+        hora = commands.getoutput("echo 'Formato HH:MM' | rofi -width 15 -hide-scrollbar -separator-style none -lines 1 -xoffset 453 -yoffset -332 -dmenu -p Adicionar:")
+        arquivo = open(alarmes, "a")
+        arquivo.write("%s\n"%hora)
+        arquivo.close()
+        os.system("notify-send -i %s 'Alarme definido para\n%s'"%(ico, hora))
+
+def rm_alarme():
+    global alarme
+    if alarme[:-1] == "remover":
+        hora = commands.getoutput("sort %s | rofi -width 15 -separator-style none -lines 2 -xoffset 453 -yoffset -320 -dmenu -p Remover:"%alarmes)
+        if hora != '':
+            confirmar = commands.getoutput("echo 'sim;nao' | rofi -sep ';' -width 15 -hide-scrollbar -separator-style none -lines 2 -xoffset 453     -yoffset -320 -dmenu -p Confirmar:")
+            if confirmar == "sim":
+                arquivo = open(alarmes)
+                alarme = arquivo.readlines()
+                alarme.remove("%s\n"%hora)
+                alarme.sort()
+                arquivo = open(alarmes, "w")
+                for alarm in alarme:
+                    arquivo.write(alarm)
+                arquivo.close()
+                os.system("notify-send -i %s 'Alarme removido'"%ico)
+            elif confirmar[:-1] == "nao":
+                rm_alarme()
+main()
+

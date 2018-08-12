@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+import commands as c
+
+rofi = 'rofi -i -dmenu -p "Find" -lines 10 -width 46'
+find = c.getoutput("echo 'Digite o nome do arquivo que deseja encontrar\nPara pesquisar somente diretorios, digite dir <diretorio>\nPara pesquisar somente por um tipo de arquivo, digite .<jpg>' | %s"%rofi)
+
+if find != '':
+    if find[:4] == 'dir ':
+        busca = c.getoutput("find /home/henrique/ -iname '*%s*' -type d | %s"%(find[4:], rofi))
+    elif find[0] == '.':
+        busca = c.getoutput ("find /home/henrique/ -iname '*%s*%s' | %s"%(find[find.find(' ')+1:], find[:find.find(' ')], rofi))
+    else:
+        busca = c.getoutput("find /home/henrique/ -iname '*%s*' | %s "%(find, rofi))
+    #if len(busca) > 163:
+    c.getoutput("gio open '%s'"%busca)

@@ -1,0 +1,24 @@
+#!/bin/bash
+res=$(echo -e "Desligar\nReiniciar\nBloquear\nSair" | rofi  -i -dmenu -p "Power: " -lines 4 -separator-style none -width 20 -hide-scrollbar)
+
+if [ ! -z $res ]; then
+	case $res in
+		Desligar)
+			confirma=$(echo -e "Sim\nNão" | rofi -i -dmenu -p "Confirmar? " -lines 2 -separator-style none -width 20 -hide-scrollbar)
+				[ $confirma = "Sim" ] && systemctl poweroff
+		;;
+		Reiniciar)
+			confirma=$(echo -e "Sim\nNão" | rofi -i -dmenu -p "Confirmar? " -lines 2 -separator-style none -width 20 -hide-scrollbar)
+			[ $confirma = "Sim" ] && systemctl reboot
+		;;
+		Bloquear)
+			i3lock --color 090909
+		;;
+	    Sair)
+			confirma=$(echo -e "Sim\nNão" | rofi -i -dmenu -p "Confirmar? " -lines 2 -separator-style none -width 20 -hide-scrollbar)
+			[ $confirma = "Sim" ] && i3-msg exit
+		;;
+		*)
+		;;
+	esac
+fi

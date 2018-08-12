@@ -1,0 +1,44 @@
+#!/bin/bash
+
+res=$(echo "Desligar;Henrique;Libreoffice;Gimp;Volume;Google-Chrome;Keepass2;Keep;VeraCrypt;Gvim;Blender;Audacity;Telegram;Processos;Steam;Sublime;Vlc;Idle;Calculadora;Calendário;Calibre;Arduino;Popcorn-Time;Dropbox;Virtualbox;Nitrogen;Skype;Spotify;Mpd;Playonlinux;Ncmpcpp;Python;Cava;Gtop;Ranger" | rofi -sep ";" -i -dmenu -p "Menu" -lines 15 -separator-style none -columns 2 -width 30 -xoffset 475 -yoffset -170)
+
+if [ ! -z $res ]; then
+    case $res in
+        Desligar) i3-msg -q exec ~/.config/rofi/scripts/power ;; 
+        Henrique) i3-msg -q exec thunar ;;
+        Libreoffice) i3-msg -q exec libreoffice ;;
+        Gimp) i3-msg -q exec gimp ;;
+        Volume) i3-msg -q exec pavucontrol ;;
+        Google-Chrome) i3-msg -q exec google-chrome ;;
+        Keepass2) i3-msg -q exec keepass2 ;;
+        Keep) exec /opt/google/chrome/google-chrome "--profile-directory=Profile 3" --app-id=hcfcmgpnmpinpidjdgejehjchlbglpde ;;
+        VeraCrypt) i3-msg -q exec veracrypt ;;
+        Gvim) i3-msg -q exec gvim ;;
+        Blender) i3-msg -q exec blender ;;
+        Audacity) i3-msg -q exec audacity ;;
+        Telegram) i3-msg -q exec ~/Downloads/Telegram/Telegram ;;
+        Processos) i3-msg -q exec gnome-system-monitor ;;
+        Steam) i3-msg -q exec steam ;;
+        Sublime) i3-msg -q exec subl ;;
+        Vlc) i3-msg -q exec vlc ;;
+        Idle) i3-msg -q exec idle ;;
+        Calculadora) i3-msg -q exec gnome-calculator ;;
+        Calendário) exec /opt/google/chrome/google-chrome "--profile-directory=Profile 3" --app-id=ifglggfjfbpfnfhbmlolmajpeoadhghj ;;
+        Calibre) i3-msg -q exec calibre ;;
+        Arduino) i3-msg -q exec Downloads/arduino-1.8.4/arduino ;;
+        Popcorn-Time) i3-msg -q exec /opt/popcorntime/Popcorn-Time ;;
+        Dropbox) i3-msg -q exec dropbox start ;;
+        Virtualbox) i3-msg -q exec virtualbox ;;
+        Nitrogen) i3-msg -q exec nitrogen ;;
+        Skype) i3-msg -q exec skypeforlinux ;;
+        Spotify) i3-msg -q exec spotify ;;
+        Mpd) i3-msg -q exec mpd ;;
+        Playonlinux) i3-msg -q exec playonlinux ;;
+        Ncmpcpp) exec gnome-terminal -e ncmpcpp ;;
+        Python) exec gnome-terminal -e python3 ;;
+        Cava) exec gnome-terminal -e ~/Downloads/flareGet/cava/cava ;;
+        Gtop) exec gnome-terminal -e gtop ;;
+        Ranger) exec gnome-terminal -e ranger ;;
+        *) i3-msg -q "exec $res" ;;
+    esac
+fi

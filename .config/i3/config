@@ -1,0 +1,285 @@
+##############################################################
+################ M A I N #####################################
+##############################################################
+set $mod Mod4
+font pango:Monospace 9
+new_window pixel 3
+focus_on_window_activation focus
+
+##############################################################
+################ C O L O R S #################################
+##############################################################
+#class                  border   backgr.  text  indicator
+#client.focused          #2f343f #2f343f #ffffff #cad0c4
+#client.focused_inactive #2f343f #2f343f #999999
+#client.unfocused        #2f343f #2f343f #999999
+#client.urgent           #a5a5a5 #a5a5a5 #1E1E1E
+#client.background       #161616
+
+bar {
+        i3bar_command i3bar -t
+       	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	separator_symbol " "
+        position top
+#        tray_output none
+        workspace_buttons yes
+        height 20
+  colors {
+        background #2f343f
+        statusline #ffffff
+        separator  #C0C0C0
+
+		#class             border   backgr.  text
+        focused_workspace  #2f343f #2f343f #ffffff
+        active_workspace   #333333 #5f676a #ffffff
+        inactive_workspace #2f343f #2f343f #999999
+        urgent_workspace   #2f343f #900000 #ffffff
+        binding_mode       #2f343a #900000 #ffffff
+    }
+}
+##############################################################
+################ B I N D I N G S #############################
+##############################################################
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start a terminal
+bindsym $mod+Return exec termite
+bindsym $mod+apostrophe split vertical ;; exec termite
+
+# kill focused window
+bindsym $mod+Shift+q kill
+bindsym $mod+q kill
+
+# dmenu
+bindsym $mod+d exec dmenu_run
+bindsym $mod+shift+g exec python2.7 ~/.config/dmenu/./find
+
+# rofi
+bindsym mod1+d exec rofi -sidebar-mode -lines 8 -columns 3 -show run
+bindsym $mod+shift+f exec python2.7 ~/.config/rofi/scripts/find
+bindsym $mod+Tab exec rofi -show window -lines 5 -width 35
+
+# lock
+bindsym mod1+ctrl+l exec i3lock --color 090909
+
+# hide/unhide i3status bar
+bindsym $mod+m bar mode toggle
+
+# screenshot
+bindsym Print exec gnome-screenshot
+bindsym ctrl+Print exec gnome-screenshot -w
+bindsym Shift+Print exec gnome-screenshot -a
+
+# media hotkeys
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
+bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+ccedilla focus right
+
+# alternatively, you can use the cursor kets:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+ccedilla move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in vertical orientation
+bindsym $mod+h split v
+
+# split in horizontal orientation
+bindsym $mod+v split h
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+e layout tabbed
+bindsym $mod+w layout toggle split
+
+# toggle tiling / floating  
+bindsym $mod+Shift+space floating toggle
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# Scratchpad
+ bindsym $mod+Shift+minus move scratchpad
+ bindsym $mod+Shift+plus scratchpad show
+
+# brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 2
+bindsym XF86MonBrightnessDown exec xbacklight -dec 2
+
+# browse the windows
+bindsym Mod1+Tab workspace next
+bindsym Mod1+Shift+Tab workspace prev
+
+# bindings prograns
+bindsym $mod+shift+v exec qutebrowser
+bindsym $mod+shift+t exec thunar
+bindsym $mod+t exec termite -e ranger
+bindsym $mod+shift+p exec pavucontrol
+bindsym $mod+shift+h exec termite -e gtop
+bindsym $mod+n exec termite -e ncmpcpp
+bindsym $mod+c exec termite -e ~/Downloads/github/cava/./cava
+
+##############################################################
+################ W O R K S P A C E S #########################
+##############################################################
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+#           
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+set $workspace4 "4"
+set $workspace5 "5"
+set $workspace6 "6"
+set $workspace7 "7"
+set $workspace8 "8"
+set $workspace9 "9"
+set $workspace10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+bindsym $mod+7 workspace $workspace7
+bindsym $mod+8 workspace $workspace8
+bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $workspace1
+bindsym $mod+Shift+2 move container to workspace $workspace2
+bindsym $mod+Shift+3 move container to workspace $workspace3
+bindsym $mod+Shift+4 move container to workspace $workspace4
+bindsym $mod+Shift+5 move container to workspace $workspace5
+bindsym $mod+Shift+6 move container to workspace $workspace6
+bindsym $mod+Shift+7 move container to workspace $workspace7
+bindsym $mod+Shift+8 move container to workspace $workspace8
+bindsym $mod+Shift+9 move container to workspace $workspace9
+bindsym $mod+Shift+0 move container to workspace $workspace10
+
+##############################################################
+################ G R O U P S #################################
+##############################################################
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+bindsym $mod+r mode "resize"
+
+set $desligar "[s]hutdown, [r]eboot, [l]ook, [e]xit"
+mode $desligar {
+	bindsym s exec systemctl poweroff
+	bindsym r exec systemctl reboot
+	bindsym l exec i3lock --color 090909
+	bindsym e exec i3-msg exit
+
+	bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+shift+e mode $desligar
+
+#############################################################
+############### G A P S #####################################
+#############################################################
+for_window [class="^.*"] border pixel 3
+gaps inner 10
+gaps outer 10
+#smart_gaps on
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+#############################################################
+############### R U L E S ###################################
+#############################################################
+for_window [urgent="latest"] focus
+
+for_window [class="Pavucontrol"] floating enable
+for_window [class="Nitrogen"] floating enable
+
+#############################################################
+############### I N I T #####################################
+#############################################################
+exec --no-startup-id compton
+exec --no-startup-id start-pulseaudio-x11
+exec --no-startup-id nitrogen --restore

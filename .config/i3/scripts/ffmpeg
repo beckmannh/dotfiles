@@ -1,0 +1,12 @@
+#!/bin/sh
+# This shell script is PUBLIC DOMAIN. You may do whatever you want with it.
+
+TOGGLE=$HOME/.toggle
+
+if [ ! -e $TOGGLE ]; then
+    touch $TOGGLE
+    ~/.config/i3/i3blocks/screencaster.sh &
+else
+    rm $TOGGLE
+    ~/.config/i3/i3blocks/screencaster.sh &
+fi
