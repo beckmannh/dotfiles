@@ -122,6 +122,7 @@ bindsym $mod+Shift+space floating toggle
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
+bindsym $mod+Shift+c move position center
 
 # Scratchpad
  bindsym $mod+Shift+minus move scratchpad
@@ -140,7 +141,7 @@ bindsym $mod+shift+v exec qutebrowser
 bindsym $mod+shift+t exec thunar
 bindsym $mod+t exec termite -e ranger
 bindsym $mod+shift+p exec pavucontrol
-bindsym $mod+shift+h exec termite -e gtop
+bindsym $mod+shift+h exec termite -e htop
 bindsym $mod+n exec termite -e ncmpcpp
 bindsym $mod+c exec termite -e ~/Downloads/github/cava/./cava
 
@@ -231,8 +232,8 @@ bindsym $mod+shift+e mode $desligar
 #############################################################
 for_window [class="^.*"] border pixel 3
 gaps inner 10
-gaps outer 10
-#smart_gaps on
+#gaps outer 10
+smart_gaps on
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -276,6 +277,7 @@ for_window [urgent="latest"] focus
 
 for_window [class="Pavucontrol"] floating enable
 for_window [class="Nitrogen"] floating enable
+for_window [class="Qalculate-gtk"] floating enable
 
 #############################################################
 ############### I N I T #####################################

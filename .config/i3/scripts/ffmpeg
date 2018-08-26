@@ -5,8 +5,8 @@ TOGGLE=$HOME/.toggle
 
 if [ ! -e $TOGGLE ]; then
     touch $TOGGLE
-    ~/.config/i3/i3blocks/screencaster.sh &
+    ~/.config/i3/scripts/screencaster.sh &
 else
     rm $TOGGLE
-    ~/.config/i3/i3blocks/screencaster.sh &
+    ~/.config/i3/scripts/screencaster.sh &
 fi
