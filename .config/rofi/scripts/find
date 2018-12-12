@@ -12,5 +12,5 @@ if find != '':
         busca = c.getoutput ("find /home/henrique/ -iname '*%s*%s' | %s"%(find[find.find(' ')+1:], find[:find.find(' ')], rofi))
     else:
         busca = c.getoutput("find /home/henrique/ -iname '*%s*' | %s "%(find, rofi))
-    #if len(busca) > 163:
-    c.getoutput("gio open '%s'"%busca)
+    if len(busca) > 1:
+        c.getoutput("gio open '%s'"%busca)

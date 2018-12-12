@@ -1,4 +1,12 @@
 configuration {
+    modi: "run,drun,window";
+    font: "Open Sans 11";
+	disable-history: true;
     show-icons: true;
+    drun-icon-theme: "Arc";
+    levenshtein-sort: true;
+    hide-scrollbar: true;
+    click-to-exit: true;
 }
-@import "/usr/share/rofi/themes/android_notification.rasi"
+//@import "/usr/share/rofi/themes/android_notification.rasi"
+@import "~/.config/rofi/themes/dark.rasi"

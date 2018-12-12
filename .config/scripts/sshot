@@ -1,0 +1,8 @@
+#/bin/sh
+
+caminho="${HOME}/Imagens/Screenshots/"
+arquivo="%Y-%m-%d_%H-%M-%S_scrot.png"
+icone="/home/henrique/.icons/Arc/devices/24@2x/camera-photo.png"
+data=$(date +%Y-%m-%d_%H-%M-%S)
+scrot $arquivo -e 'mv $f ~/Imagens/screenshots/'
+notify-send -i $icone "Tela Capturada"

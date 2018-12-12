@@ -1,7 +1,7 @@
 [global]
     monitor = 0
     follow = mouse
-    geometry = "250x5-11+25"
+    geometry = "250x5-10+30"
     indicate_hidden = yes
     shrink = no
     transparency = 0
@@ -155,12 +155,12 @@
 
 [urgency_low]
     background = "#222222"
-    foreground = "#888888"
+    foreground = "#ffffff"
     timeout = 8
     #icon = /path/to/icon
 
 [urgency_normal]
-	background = "#2e3440"
+	background = "#232323"
     foreground = "#ffffff"
     timeout = 10
     #icon = /path/to/icon

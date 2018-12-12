@@ -1,10 +1,10 @@
 #!/bin/bash
 
-res=$(echo "Desligar;Henrique;Libreoffice;Gimp;Volume;Google-Chrome;Keepass2;Keep;VeraCrypt;Gvim;Blender;Audacity;Telegram;Processos;Steam;Sublime;Vlc;Idle;Calculadora;Calendário;Calibre;Arduino;Popcorn-Time;Dropbox;Virtualbox;Nitrogen;Skype;Spotify;Mpd;Playonlinux;Ncmpcpp;Python;Cava;Gtop;Ranger" | rofi -sep ";" -i -dmenu -p "Menu" -lines 15 -separator-style none -columns 2 -width 30 -xoffset 475 -yoffset -170)
+res=$(echo "Desligar;Henrique;Libreoffice;Gimp;Volume;Google-Chrome;Keepass2;Keep;VeraCrypt;Gvim;Blender;Audacity;Telegram;Processos;Steam;Sublime;Vlc;Idle;Calculadora;Calendário;Calibre;Arduino;Popcorn-Time;Dropbox;Virtualbox;Nitrogen;Skype;Spotify;Mpd;Playonlinux;Ncmpcpp;Python;Cava;Gtop;Ranger" | rofi -sep ";" -i -dmenu -p "Menu" -lines 15 -separator-style none -columns 2 -width 30 -xoffset 500 -yoffset -170)
 
 if [ ! -z $res ]; then
     case $res in
-        Desligar) i3-msg -q exec ~/.config/rofi/scripts/power ;; 
+        Desligar) i3-msg -q exec ~/.config/rofi/scripts/power ;;
         Henrique) i3-msg -q exec thunar ;;
         Libreoffice) i3-msg -q exec libreoffice ;;
         Gimp) i3-msg -q exec gimp ;;

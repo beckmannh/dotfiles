@@ -1,0 +1,405 @@
+;-----------------------------------
+;		     C O L O R S 		   ;
+;-----------------------------------
+[colors]
+#background = ${xrdb:color0:#222}
+background = #222
+background-alt = #444
+;foreground = ${xrdb:color7:#222}
+foreground = #ffffff
+foreground-alt = #555
+primary = #ffb52a
+secondary = #e60053
+iface = #00ff00
+alert = #bd2c40
+
+;-----------------------------------
+;		        B A R 		 	   ;
+;-----------------------------------
+[bar/bar]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 23
+;offset-x = 1%
+;offset-y = 1%
+radius = 1.0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = fixed:pixelsize=10;2
+font-1 = feather:pixelsize=10;2
+font-2 = FontAwesome5Free:style=Solid:pixelsize=10;2
+font-3 = FontAwesome5Free:style=Regular:pixelsize=10;2
+
+modules-left = i3 sep apps
+modules-center = xwindow sep screencast screenshot
+modules-right = wlan pulse battery date find drun
+
+tray-position = right
+tray-padding = 1
+tray-background = ${colors.background}
+
+;wm-restack = i3
+
+;override-redirect = true
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+;-----------------------------------
+;		  	I C O N S 		 	   ;
+;-----------------------------------
+;                    
+;                     
+;                     
+;                     
+;                     
+;                     
+;                     
+;                     
+;                     
+;                     
+;                     
+;                     
+;               
+
+;-----------------------------------
+;		 i 3 -  M O D U L E 	   ;
+;-----------------------------------
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 10;
+
+strip-wsnumbers = true
+
+label-mode = %mode%
+label-mode-padding = 2
+label-mode-foreground = #000
+label-mode-background = ${colors.primary}
+
+; focused = Active workspace on focused monitor
+label-focused = %name%
+label-focused-background = ${colors.background-alt}
+label-focused-padding = 2
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %name%
+label-unfocused-padding = 2
+
+; visible = Active workspace on unfocused monitor
+label-visible = %name%
+label-visible-background = ${colors.background-alt}
+label-visible-padding = 2
+
+; urgent = Workspace with urgency hint set
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+tray-position = right
+
+;-----------------------------------
+;		    X  W I N D O W 		   ;
+;-----------------------------------
+[module/xwindow]
+format-prefix = " "
+type = internal/xwindow
+label = %title:0:30:...%
+label-empty = henrique@archlinux: ~
+
+;-----------------------------------
+;		 F I L E S Y S T E M 	   ;
+;-----------------------------------
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted =  %percentage_used%%
+label-unmounted =  %mountpoint% não montado
+label-unmounted-foreground = ${colors.foreground-alt}
+
+;-----------------------------------
+;		       C P U 		 	   ;
+;-----------------------------------
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+label = %percentage:2%%
+
+;-----------------------------------
+;		     M E M O R Y 		   ;
+;-----------------------------------
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+label = %percentage_used%%
+
+;-----------------------------------
+;		       E T H 		 	   ;
+;-----------------------------------
+[module/eth]
+type = internal/network
+interface = eno1
+interval = 3.0
+
+format-connected-prefix = net
+label-connected = %local_ip%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+;-----------------------------------
+;		 T E M P E R A T U R E     ;
+;-----------------------------------
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <label>
+format-warn = <label-warn>
+
+label =  %temperature-c%
+label-warn =  %temperature-c%
+label-warn-foreground = ${colors.secondary}
+
+;-----------------------------------
+;		       M P D 		 	   ;
+;-----------------------------------
+[module/mpd]
+type = internal/mpd
+format-online =  <label-song> <icon-prev> <icon-stop> <toggle> <icon-next>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 50
+label-song-ellipsis = true
+
+;-----------------------------------
+;		       W L A N 		 	   ;
+;-----------------------------------
+[module/wlan]
+type = internal/network
+interface = wlp8s0f0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #9f78e1
+label-connected = %essid%
+
+format-disconnected = 
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+;ramp-signal-foreground = ${colors.foreground-alt}
+
+;-----------------------------------
+;		      P U L S E	 	   	   ;
+;-----------------------------------
+[module/pulse]
+type = internal/pulseaudio
+
+format-volume = <label-volume>
+label-volume =  %percentage%%
+label-volume-foreground = ${root.foreground}
+
+label-muted = mudo
+label-muted-foreground = #666
+
+;-----------------------------------
+;		       D A T E 		 	   ;
+;-----------------------------------
+[module/date]
+type = internal/date
+interval = 1
+
+date = "  %A "
+date-alt = " %d-%m-%Y"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix = 
+
+label = %date% %time%
+
+;-----------------------------------
+;		       A P P S 		 	   ;
+;-----------------------------------
+[module/apps]
+type = custom/menu
+
+format-spacing = 1
+
+label-open = 
+label-close = 
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = 
+menu-0-0-exec = qutebrowser &
+
+menu-0-1 = 
+menu-0-1-exec = termite -d ~/ &
+
+menu-0-2 = 
+menu-0-2-exec = thunar ~/ &
+
+menu-0-3 = 
+menu-0-3-exec = gmail &
+
+menu-0-4 = 
+menu-0-4-exec = twitter &
+
+menu-0-5 = 
+menu-0-5-exec = whatsapp &
+
+;-----------------------------------
+;		       F I N D 		 	   ;
+;-----------------------------------
+[module/find]
+type = custom/text
+content = 
+click-left = python2.7 ~/.config/rofi/scripts/find &
+
+;-----------------------------------
+;		       D R U N 		 	   ;
+;-----------------------------------
+[module/drun]
+type = custom/text
+content = 
+click-left = rofi -show drun -xoffset 1065 -yoffset 12 -theme ~/.config/rofi/themes/sidetab.rasi
+
+;-----------------------------------
+;		 S C R E E N S H O T  	   ;
+;-----------------------------------
+[module/screenshot]
+type = custom/text
+content = 
+click-left = ~/.config/scripts/sshot &
+
+;-----------------------------------
+;		S C R E E N C A S T	 	   ;
+;-----------------------------------
+[module/screencast]
+type = custom/script
+interval = 1
+label = %output%
+click-left = termite -e ~/.config/scripts/screencaster.sh &
+click-right = ~/.config/scripts/screencaster.sh clear &
+exec = ~/.config/scripts/screencaster.sh status
+tail = true
+
+;-----------------------------------
+;		   B A T T E R Y 		   ;
+;-----------------------------------
+[module/battery]
+type = custom/script
+internal = 1
+label = %output%
+exec = ~/.config/scripts/battery.py
+tail = true
+
+;-----------------------------------
+;		 B A N D W I D T H 		   ;
+;-----------------------------------
+[module/bandwidth]
+type = custom/script
+internal = 1
+label = %output%
+exec = ~/.config/scripts/bandwidth
+tail = true
+
+;-----------------------------------
+;		     I F A C E	 	  	   ;
+;-----------------------------------
+[module/iface]
+type = custom/script
+internal = 1
+label = %output%
+label-foreground = ${colors.iface}
+exec = ~/.config/scripts/iface
+tail = true
+
+;-----------------------------------
+;		       W I F I 		 	   ;
+;-----------------------------------
+[module/wifi]
+type = custom/script
+internal = 1
+label =  %output%
+exec = ~/.config/scripts/wifi
+tail = true
+
+;-----------------------------------
+;		       S E P 		 	   ;
+;-----------------------------------
+[module/sep]
+type = custom/text
+content = 
+
+;-----------------------------------
+;		  S E T T I N G S  		   ;
+;-----------------------------------
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = false
+
+;-----------------------------------
+;		       W M  		 	   ;
+;-----------------------------------
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+; vim:ft=dosini

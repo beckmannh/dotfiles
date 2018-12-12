@@ -1,0 +1,44 @@
+configuration {
+	display-drun:    "drun: ";
+	display-run:     "run: ";
+	display-window:  "window: ";
+	show-icons:      true;
+}
+
+#window {
+    anchor:     north;
+    location:   north;
+    width:      100%;
+	border: 	0px;
+    padding:    2px;
+    children:   [ horibox ];
+}
+
+#horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+
+#mainbox {
+	border:  0;
+	 padding: 0;
+}
+
+#prompt {
+	expand: false;
+}
+
+#listview {
+    layout:     horizontal;
+    spacing:    5px;
+    lines:      100;
+}
+
+#entry {
+    expand:     false;
+    width:      10em;
+}
+
+#element {
+    padding: 0px 2px;
+}

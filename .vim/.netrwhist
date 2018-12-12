@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/henrique/GitHub/chatbot'
+let g:netrw_dirhist_2='/home/henrique/.config/i3'
+let g:netrw_dirhist_3='/home/henrique/.config/i3/scripts'
+let g:netrw_dirhist_4='/home/henrique/.config/dunst'
+let g:netrw_dirhist_5='/home/henrique/.config/polybar'
+let g:netrw_dirhist_6='/home/henrique/.config/rofi/scripts'
+let g:netrw_dirhist_7='/home/henrique/.config/polybar'

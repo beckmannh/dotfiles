@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="minimal"
+ZSH_THEME="gentoo"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -94,7 +94,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Aliases
 alias vi="vim"
-alias music="ncmpcpp"
+alias py="python3"
 alias pacman="sudo pacman"
 alias p="sudo pacman"
 alias cp="cp -iv"
@@ -102,17 +102,16 @@ alias rm="rm -iv"
 alias mv="mv -iv"
 alias mkdir="mkdir -pv"
 alias ls="ls --color=auto --group-directories-first"
-alias home="cd ~/"
-alias desktop="cd ~/Área\ de\ trabalho"
-alias documentos="cd ~/Documentos"
-alias downloads="cd ~/Downloads"
+alias youtube-mp3='youtube-dl --extract-audio --audio-format mp3'
+alias desk="cd ~/Área\ de\ trabalho"
+alias doc="cd ~/Documentos"
+alias down="cd ~/Downloads"
 alias estudos="cd ~/Estudos"
-alias imagens="cd ~/Imagens"
-alias musicas="cd ~/Música"
+alias img="cd ~/Imagens"
+alias music="cd ~/Música"
 alias videos="cd ~/Vídeos"
 alias config="cd ~/.config/i3"
 alias cfg="cd ~/.config/i3"
 alias scripts="cd ~/.config/i3/scripts"
-alias ss="cd ~/.config/i3/scripts && ls"
-alias calc="expr"
+alias ss="cd ~/.config/i3/scripts"
 alias q="exit"

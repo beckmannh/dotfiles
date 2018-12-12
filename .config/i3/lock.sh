@@ -1,20 +1,22 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# Approximate timeout rate in milliseconds (checked every 5 seconds).
-timeout="10000"
+scr='/tmp/screenshot.png'
+icon="$HOME/.config/i3/lock.png"
+text="Senha: O barrigão do papai"
 
-# Take a screenshot:
-scrot /tmp/screen.png
+gradientColor='#282a36'
 
-# Add the lock to the swirled and blurred image:
-[[ -f ~/.i3/lock.png ]] && convert /tmp/screen.png -paint 1 -swirl 360  ~/.i3/lock.png -gravity center -composite -matte /tmp/screen.png
+# take a screenshot
+scrot "$scr"
 
+# get gradient dimensions directly from the screenshot
+read width height <<<$(file $scr | cut -d, -f 2 | tr -d ' ' | tr 'x' ' ')
+height=$((height / 2))
 
-# Lock it up!
-i3lock -e -f -c 000000 -i /tmp/screen.png
-
-# If still locked after $timeout milliseconds, turn off screen.
-while [[ $(pgrep -x i3lock) ]]; do
-	[[ $timeout -lt $(xssstate -i) ]] && xset dpms force off
-	sleep 5
-done
+convert "$scr" -scale 10% -scale 1000%\
+	-size "${width}x${height}" -gravity south-west \
+	gradient:none-"$gradientColor" -composite -matte \
+	"$icon" -gravity center -composite -matte \
+	-gravity center -pointsize 20 \
+	-fill "#EAE4D1" -annotate +0+200 "$text" "$scr"
+i3lock -i "$scr"

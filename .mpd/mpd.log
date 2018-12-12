@@ -184,3 +184,963 @@ Aug 11 23:17 : client: [4] opened from [::1]:48032
 Aug 11 23:17 : client: [5] opened from [::1]:48034
 Aug 11 23:17 : client: [5] closed
 Aug 11 23:17 : client: [4] closed
+Aug 12 02:23 : exception: "pulse audio" [pulse] failed to pause: failed to connect the stream: Connection terminated
+Aug 12 02:26 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 13 21:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 21:48 : client: [0] opened from [::1]:48970
+Aug 13 21:48 : update: added /Fagner, Zé Ramalho - Chão de Giz.mp3
+Aug 13 21:48 : client: [0] closed
+Aug 13 21:56 : client: [1] opened from [::1]:49110
+Aug 13 21:56 : client: [2] opened from [::1]:49112
+Aug 13 21:56 : client: [2] closed
+Aug 13 21:56 : client: [1] closed
+Aug 13 22:01 : client: [3] opened from [::1]:49126
+Aug 13 22:01 : client: [3] closed
+Aug 13 22:01 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 13 22:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:04 : client: [0] opened from [::1]:49138
+Aug 13 22:04 : client: [0] closed
+Aug 13 22:04 : client: [1] opened from [::1]:49140
+Aug 13 22:04 : client: [1] closed
+Aug 13 22:04 : client: [2] opened from [::1]:49142
+Aug 13 22:04 : client: [2] closed
+Aug 13 22:04 : client: [3] opened from [::1]:49144
+Aug 13 22:04 : client: [3] closed
+Aug 13 22:04 : client: [4] opened from [::1]:49146
+Aug 13 22:04 : client: [4] closed
+Aug 13 22:04 : client: [5] opened from [::1]:49148
+Aug 13 22:04 : client: [5] closed
+Aug 13 22:04 : client: [6] opened from [::1]:49150
+Aug 13 22:04 : client: [6] closed
+Aug 13 22:04 : client: [7] opened from [::1]:49152
+Aug 13 22:04 : client: [7] closed
+Aug 13 22:04 : client: [8] opened from [::1]:49154
+Aug 13 22:04 : client: [8] closed
+Aug 13 22:04 : client: [9] opened from [::1]:49156
+Aug 13 22:04 : client: [9] closed
+Aug 13 22:04 : client: [10] opened from [::1]:49158
+Aug 13 22:04 : client: [10] closed
+Aug 13 22:04 : client: [11] opened from [::1]:49160
+Aug 13 22:04 : client: [11] closed
+Aug 13 22:04 : client: [12] opened from [::1]:49162
+Aug 13 22:04 : client: [12] closed
+Aug 13 22:04 : client: [13] opened from [::1]:49164
+Aug 13 22:04 : client: [13] closed
+Aug 13 22:04 : client: [14] opened from [::1]:49166
+Aug 13 22:04 : client: [14] closed
+Aug 13 22:04 : client: [15] opened from [::1]:49168
+Aug 13 22:04 : client: [15] closed
+Aug 13 22:04 : client: [16] opened from [::1]:49170
+Aug 13 22:04 : client: [16] closed
+Aug 13 22:04 : client: [17] opened from [::1]:49172
+Aug 13 22:04 : client: [17] closed
+Aug 13 22:05 : client: [18] opened from [::1]:49178
+Aug 13 22:05 : client: [18] closed
+Aug 13 22:05 : client: [19] opened from [::1]:49180
+Aug 13 22:05 : update: updating /Raul seixas - Metamorfose ambulante.mp3
+Aug 13 22:05 : client: [19] closed
+Aug 13 22:05 : update: updating /Fagner, Zé Ramalho - Chão de Giz.mp3
+Aug 13 22:05 : client: [20] opened from [::1]:49182
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [20] closed
+Aug 13 22:05 : client: [21] opened from [::1]:49184
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [21] closed
+Aug 13 22:05 : client: [22] opened from [::1]:49186
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [22] closed
+Aug 13 22:05 : client: [23] opened from [::1]:49188
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [23] closed
+Aug 13 22:05 : client: [24] opened from [::1]:49190
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [24] closed
+Aug 13 22:05 : client: [25] opened from [::1]:49192
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [25] closed
+Aug 13 22:05 : client: [26] opened from [::1]:49194
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [26] closed
+Aug 13 22:05 : client: [27] opened from [::1]:49196
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [27] closed
+Aug 13 22:05 : client: [28] opened from [::1]:49198
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [28] closed
+Aug 13 22:05 : client: [29] opened from [::1]:49200
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [29] closed
+Aug 13 22:05 : client: [30] opened from [::1]:49202
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [30] closed
+Aug 13 22:05 : client: [31] opened from [::1]:49204
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [31] closed
+Aug 13 22:05 : client: [32] opened from [::1]:49206
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [32] closed
+Aug 13 22:05 : client: [33] opened from [::1]:49208
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [33] closed
+Aug 13 22:05 : client: [34] opened from [::1]:49210
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [34] closed
+Aug 13 22:05 : client: [35] opened from [::1]:49212
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [35] closed
+Aug 13 22:05 : client: [36] opened from [::1]:49214
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [36] closed
+Aug 13 22:05 : client: [37] opened from [::1]:49216
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [37] closed
+Aug 13 22:05 : client: [38] opened from [::1]:49218
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [38] closed
+Aug 13 22:05 : client: [39] opened from [::1]:49220
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [39] closed
+Aug 13 22:05 : client: [40] opened from [::1]:49222
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [40] closed
+Aug 13 22:05 : client: [41] opened from [::1]:49224
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [41] closed
+Aug 13 22:05 : client: [42] opened from [::1]:49226
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [42] closed
+Aug 13 22:05 : client: [43] opened from [::1]:49228
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [43] closed
+Aug 13 22:05 : client: [44] opened from [::1]:49230
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [44] closed
+Aug 13 22:05 : client: [45] opened from [::1]:49232
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [45] closed
+Aug 13 22:05 : client: [46] opened from [::1]:49234
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [46] closed
+Aug 13 22:05 : client: [47] opened from [::1]:49236
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [47] closed
+Aug 13 22:05 : client: [48] opened from [::1]:49238
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [48] closed
+Aug 13 22:05 : client: [49] opened from [::1]:49240
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [49] closed
+Aug 13 22:05 : client: [50] opened from [::1]:49242
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [50] closed
+Aug 13 22:05 : client: [51] opened from [::1]:49244
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [51] closed
+Aug 13 22:05 : client: [52] opened from [::1]:49246
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [52] closed
+Aug 13 22:05 : client: [53] opened from [::1]:49248
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [53] closed
+Aug 13 22:05 : client: [54] opened from [::1]:49250
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [54] closed
+Aug 13 22:05 : client: [55] opened from [::1]:49252
+Aug 13 22:05 : exception: No such directory
+Aug 13 22:05 : client: [55] closed
+Aug 13 22:05 : client: [56] opened from [::1]:49254
+Aug 13 22:05 : client: [56] closed
+Aug 13 22:06 : client: [57] opened from [::1]:49256
+Aug 13 22:06 : client: [58] opened from [::1]:49258
+Aug 13 22:06 : client: [58] closed
+Aug 13 22:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:06 : client: [57] closed
+Aug 13 22:06 : client: [59] opened from [::1]:49260
+Aug 13 22:06 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 13 22:06 : client: [59] closed
+Aug 13 22:06 : client: [60] opened from [::1]:49262
+Aug 13 22:06 : client: [60] closed
+Aug 13 22:06 : client: [61] opened from [::1]:49264
+Aug 13 22:06 : client: [61] closed
+Aug 13 22:06 : client: [62] opened from [::1]:49266
+Aug 13 22:06 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 13 22:06 : client: [62] closed
+Aug 13 22:06 : client: [63] opened from [::1]:49268
+Aug 13 22:06 : client: [63] closed
+Aug 13 22:06 : client: [64] opened from [::1]:49270
+Aug 13 22:06 : update: updating /Raul seixas - Metamorfose ambulante.mp3
+Aug 13 22:06 : update: updating /Fagner, Zé Ramalho - Chão de Giz.mp3
+Aug 13 22:06 : client: [64] closed
+Aug 13 22:06 : client: [65] opened from [::1]:49272
+Aug 13 22:06 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 13 22:06 : client: [65] closed
+Aug 13 22:06 : client: [66] opened from [::1]:49274
+Aug 13 22:09 : client: [66] closed
+Aug 13 22:09 : client: [67] opened from [::1]:49384
+Aug 13 22:09 : client: [67] closed
+Aug 13 22:09 : client: [68] opened from [::1]:49386
+Aug 13 22:09 : client: [68] closed
+Aug 13 22:09 : update: added /Guns N' Roses - Sweet Child O' Mine.mp3
+Aug 13 22:09 : client: [69] opened from [::1]:49388
+Aug 13 22:10 : client: [69] closed
+Aug 13 22:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:13 : client: [0] opened from [::1]:49406
+Aug 13 22:13 : client: [0] closed
+Aug 13 22:13 : client: [1] opened from [::1]:49408
+Aug 13 22:13 : update: removing Guns N' Roses - Sweet Child O' Mine.mp3
+Aug 13 22:13 : update: removing Fagner, Zé Ramalho - Chão de Giz.mp3
+Aug 13 22:13 : client: [1] closed
+Aug 13 22:13 : client: [2] opened from [::1]:49410
+Aug 13 22:13 : client: [2] closed
+Aug 13 22:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:16 : client: [0] opened from [::1]:49430
+Aug 13 22:16 : client: [0] closed
+Aug 13 22:16 : client: [1] opened from [::1]:49432
+Aug 13 22:17 : client: [1] closed
+Aug 13 22:17 : client: [2] opened from [::1]:49434
+Aug 13 22:17 : client: [2] closed
+Aug 13 22:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:17 : client: [0] opened from [::1]:49436
+Aug 13 22:17 : client: [0] closed
+Aug 13 22:17 : update: added /Guns N' Roses - Sweet Child O' Mine.mp3
+Aug 13 22:17 : update: added /Fagner, Zé Ramalho - Chão de Giz.mp3
+Aug 13 22:17 : client: [1] opened from [::1]:49438
+Aug 13 22:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:17 : client: [2] opened from [::1]:49440
+Aug 13 22:17 : client: [2] closed
+Aug 13 22:17 : client: [3] opened from [::1]:49442
+Aug 13 22:17 : client: [3] closed
+Aug 13 22:17 : client: [4] opened from [::1]:49444
+Aug 13 22:17 : client: [4] closed
+Aug 13 22:18 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 13 22:18 : client: [5] opened from [::1]:49448
+Aug 13 22:18 : client: [5] closed
+Aug 13 22:18 : client: [6] opened from [::1]:49450
+Aug 13 22:18 : client: [6] closed
+Aug 13 22:19 : client: [7] opened from [::1]:49452
+Aug 13 22:19 : client: [8] opened from [::1]:49454
+Aug 13 22:19 : client: [8] closed
+Aug 13 22:19 : client: [7] closed
+Aug 13 22:22 : client: [9] opened from [::1]:49470
+Aug 13 22:22 : client: [9] closed
+Aug 13 22:24 : client: [10] opened from [::1]:49482
+Aug 13 22:24 : client: [10] closed
+Aug 13 22:25 : client: [11] opened from [::1]:49488
+Aug 13 22:25 : client: [11] closed
+Aug 13 22:25 : client: [12] opened from [::1]:49506
+Aug 13 22:25 : client: [12] closed
+Aug 13 22:25 : client: [1] closed
+Aug 13 22:25 : client: [13] opened from [::1]:49508
+Aug 13 22:25 : client: [14] opened from [::1]:49510
+Aug 13 22:25 : client: [14] closed
+Aug 13 22:25 : client: [13] closed
+Aug 13 22:26 : client: [15] opened from [::1]:49520
+Aug 13 22:26 : client: [15] closed
+Aug 13 22:26 : client: [16] opened from [::1]:49574
+Aug 13 22:26 : client: [16] closed
+Aug 13 22:26 : client: [17] opened from [::1]:49576
+Aug 13 22:26 : client: [17] closed
+Aug 13 22:26 : client: [18] opened from [::1]:49578
+Aug 13 22:26 : client: [18] closed
+Aug 13 22:26 : client: [19] opened from [::1]:49580
+Aug 13 22:26 : client: [19] closed
+Aug 13 22:26 : client: [20] opened from [::1]:49582
+Aug 13 22:26 : client: [20] closed
+Aug 13 22:27 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 13 22:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:27 : client: [0] opened from [::1]:49592
+Aug 13 22:27 : client: [0] closed
+Aug 13 22:27 : client: [1] opened from [::1]:49594
+Aug 13 22:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 22:27 : client: [1] closed
+Aug 13 22:28 : client: [2] opened from [::1]:49596
+Aug 13 22:28 : client: [2] closed
+Aug 13 22:28 : client: [3] opened from [::1]:49598
+Aug 13 22:28 : client: [3] closed
+Aug 13 22:28 : client: [4] opened from [::1]:49600
+Aug 13 22:28 : client: [4] closed
+Aug 13 22:28 : client: [5] opened from [::1]:49602
+Aug 13 22:28 : client: [5] closed
+Aug 13 22:28 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 13 23:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 23:37 : client: [0] opened from [::1]:50442
+Aug 13 23:37 : client: [1] opened from [::1]:50444
+Aug 13 23:37 : client: [1] closed
+Aug 13 23:38 : client: [0] closed
+Aug 13 23:38 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 15 22:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 15 22:41 : client: [0] opened from [::1]:32938
+Aug 15 22:41 : client: [1] opened from [::1]:32940
+Aug 15 22:41 : client: [1] closed
+Aug 15 22:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 15 22:41 : client: [2] opened from [::1]:32942
+Aug 15 22:41 : client: [2] closed
+Aug 15 22:41 : client: [3] opened from [::1]:32944
+Aug 15 22:41 : client: [3] closed
+Aug 15 22:41 : client: [4] opened from [::1]:32946
+Aug 15 22:41 : client: [4] closed
+Aug 15 22:41 : client: [5] opened from [::1]:32948
+Aug 15 22:41 : client: [6] opened from [::1]:32950
+Aug 15 22:41 : client: [6] closed
+Aug 15 22:42 : client: [5] closed
+Aug 15 22:42 : client: [0] closed
+Aug 15 22:42 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 16 21:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 16 21:13 : client: [0] opened from [::1]:33940
+Aug 16 21:13 : client: [1] opened from [::1]:33942
+Aug 16 21:13 : client: [1] closed
+Aug 16 21:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 16 21:13 : client: [2] opened from [::1]:33944
+Aug 16 21:13 : client: [2] closed
+Aug 16 21:13 : client: [3] opened from [::1]:33946
+Aug 16 21:13 : client: [4] opened from [::1]:33948
+Aug 16 21:13 : client: [4] closed
+Aug 16 21:16 : client: [0] closed
+Aug 16 21:16 : client: [3] closed
+Aug 16 21:16 : player: played "Fagner, Zé Ramalho - Chão de Giz.mp3"
+Aug 16 21:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 16 21:19 : client: [0] opened from [::1]:51600
+Aug 16 21:19 : client: [1] opened from [::1]:51602
+Aug 16 21:19 : client: [1] closed
+Aug 16 21:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 16 21:19 : client: [2] opened from [::1]:51606
+Aug 16 21:19 : client: [3] opened from [::1]:51608
+Aug 16 21:19 : client: [3] closed
+Aug 16 21:23 : player: played "Fagner, Zé Ramalho - Chão de Giz.mp3"
+Aug 16 21:23 : client: [4] opened from [::1]:51700
+Aug 16 21:23 : client: [5] opened from [::1]:51702
+Aug 16 21:23 : client: [4] closed
+Aug 16 21:23 : client: [5] closed
+Aug 16 21:24 : client: [0] closed
+Aug 16 21:24 : client: [2] closed
+Aug 16 22:11 : client: [6] opened from [::1]:52082
+Aug 16 22:11 : client: [7] opened from [::1]:52084
+Aug 16 22:11 : client: [7] closed
+Aug 16 22:11 : client: [8] opened from [::1]:52086
+Aug 16 22:11 : client: [8] closed
+Aug 16 22:16 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 16 23:57 : client: [6] closed
+Aug 19 13:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 19 13:33 : client: [0] opened from [::1]:52468
+Aug 19 13:33 : client: [0] closed
+Aug 19 13:33 : update: added /Maluco Beleza - Raul Seixas.mp3
+Aug 19 13:34 : client: [1] opened from [::1]:52470
+Aug 19 13:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 19 13:34 : client: [2] opened from [::1]:52474
+Aug 19 13:34 : client: [2] closed
+Aug 19 13:34 : client: [1] closed
+Aug 19 13:35 : client: [3] opened from [::1]:52484
+Aug 19 13:35 : update: removing Maluco Beleza - Raul Seixas.mp3
+Aug 19 13:35 : update: added /Maluco Beleza - Raul Seixas-KobmJoCKKjY.mp3
+Aug 19 13:35 : client: [3] closed
+Aug 19 13:35 : client: [4] opened from [::1]:52486
+Aug 19 13:35 : client: [5] opened from [::1]:52488
+Aug 19 13:35 : client: [5] closed
+Aug 19 13:35 : player: played "Maluco Beleza - Raul Seixas.mp3"
+Aug 19 13:35 : client: [6] opened from [::1]:52494
+Aug 19 13:35 : client: [6] closed
+Aug 19 13:35 : player: played "Maluco Beleza - Raul Seixas-KobmJoCKKjY.mp3"
+Aug 19 13:36 : client: [4] closed
+Aug 19 13:36 : client: [7] opened from [::1]:52496
+Aug 19 13:36 : client: [7] closed
+Aug 19 13:36 : client: [8] opened from [::1]:52498
+Aug 19 13:36 : client: [8] closed
+Aug 19 13:36 : client: [9] opened from [::1]:52500
+Aug 19 13:36 : update: removing Maluco Beleza - Raul Seixas-KobmJoCKKjY.mp3
+Aug 19 13:36 : client: [9] closed
+Aug 19 13:36 : client: [10] opened from [::1]:52502
+Aug 19 13:36 : client: [10] closed
+Aug 22 17:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 17:37 : client: [0] opened from [::1]:43000
+Aug 22 17:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 22 17:41 : client: [1] opened from [::1]:43008
+Aug 22 17:41 : client: [2] opened from [::1]:43010
+Aug 22 17:41 : client: [2] closed
+Aug 22 17:42 : player: played "Fagner, Zé Ramalho - Chão de Giz.mp3"
+Aug 22 17:42 : client: [3] opened from [::1]:43014
+Aug 22 17:42 : client: [4] opened from [::1]:43012
+Aug 22 17:42 : client: [4] closed
+Aug 22 17:42 : client: [3] closed
+Aug 22 17:46 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 22 17:46 : client: [5] opened from [::1]:43026
+Aug 22 17:46 : client: [6] opened from [::1]:43028
+Aug 22 17:46 : client: [5] closed
+Aug 22 17:46 : client: [6] closed
+Aug 22 17:47 : client: [0] closed
+Aug 22 17:47 : client: [1] closed
+Aug 22 17:47 : client: [7] opened from [::1]:43030
+Aug 22 17:47 : client: [8] opened from [::1]:43032
+Aug 22 17:47 : client: [8] closed
+Aug 22 17:47 : client: [9] opened from [::1]:43034
+Aug 22 17:47 : client: [10] opened from [::1]:43036
+Aug 22 17:47 : client: [10] closed
+Aug 22 17:49 : client: [9] closed
+Aug 22 17:49 : client: [7] closed
+Aug 23 01:23 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 27 22:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 27 22:45 : client: [0] opened from [::1]:55264
+Aug 27 22:45 : client: [1] opened from [::1]:55266
+Aug 27 22:45 : client: [1] closed
+Aug 27 22:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 27 22:45 : client: [2] opened from [::1]:55268
+Aug 27 22:45 : client: [2] closed
+Aug 27 22:46 : client: [3] opened from [::1]:55270
+Aug 27 22:46 : client: [4] opened from [::1]:55272
+Aug 27 22:46 : client: [4] closed
+Aug 27 22:51 : client: [5] opened from [::1]:55280
+Aug 27 22:51 : client: [5] closed
+Aug 27 22:51 : client: [0] closed
+Aug 27 22:51 : client: [3] closed
+Aug 27 23:22 : client: [6] opened from [::1]:56220
+Aug 27 23:22 : update: added /Cássia Eller - O segundo sol.mp3
+Aug 27 23:22 : client: [6] closed
+Aug 27 23:22 : client: [7] opened from [::1]:56222
+Aug 27 23:22 : client: [8] opened from [::1]:56224
+Aug 27 23:22 : client: [8] closed
+Aug 27 23:22 : client: [9] opened from [::1]:56226
+Aug 27 23:22 : client: [9] closed
+Aug 27 23:22 : client: [10] opened from [::1]:56228
+Aug 27 23:22 : client: [11] opened from [::1]:56230
+Aug 27 23:22 : client: [11] closed
+Aug 27 23:26 : player: played "Cássia Eller - O segundo sol.mp3"
+Aug 27 23:27 : client: [7] closed
+Aug 27 23:27 : client: [10] closed
+Aug 27 23:37 : client: [12] opened from [::1]:56450
+Aug 27 23:37 : client: [13] opened from [::1]:56452
+Aug 27 23:37 : client: [13] closed
+Aug 27 23:37 : client: [14] opened from [::1]:56454
+Aug 27 23:37 : client: [15] opened from [::1]:56456
+Aug 27 23:37 : client: [15] closed
+Aug 27 23:42 : player: played "Fagner, Zé Ramalho - Chão de Giz.mp3"
+Aug 27 23:42 : client: [16] opened from [::1]:56464
+Aug 27 23:42 : client: [17] opened from [::1]:56466
+Aug 27 23:42 : client: [16] closed
+Aug 27 23:42 : client: [17] closed
+Aug 27 23:45 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 27 23:45 : client: [18] opened from [::1]:56472
+Aug 27 23:45 : client: [19] opened from [::1]:56474
+Aug 27 23:45 : client: [18] closed
+Aug 27 23:45 : client: [19] closed
+Aug 28 00:19 : client: [14] closed
+Aug 28 00:19 : client: [12] closed
+Aug 28 01:11 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 29 18:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 18:16 : client: [0] opened from [::1]:59168
+Aug 29 18:16 : client: [1] opened from [::1]:59170
+Aug 29 18:16 : client: [1] closed
+Aug 29 18:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 18:16 : client: [0] closed
+Aug 29 18:16 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Aug 30 20:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 30 20:57 : client: [0] opened from [::1]:38798
+Aug 30 20:57 : client: [1] opened from [::1]:38800
+Aug 30 20:57 : client: [1] closed
+Aug 30 20:58 : client: [2] opened from [::1]:38802
+Aug 30 20:58 : client: [3] opened from [::1]:38804
+Aug 30 20:58 : client: [3] closed
+Aug 30 20:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 30 20:58 : client: [4] opened from [::1]:38806
+Aug 30 20:58 : client: [4] closed
+Aug 30 20:58 : client: [5] opened from [::1]:38808
+Aug 30 20:58 : client: [5] closed
+Aug 30 20:58 : client: [0] closed
+Aug 30 20:58 : client: [2] closed
+Aug 30 20:58 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Aug 31 19:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 31 19:52 : client: [0] opened from [::1]:45146
+Aug 31 19:52 : client: [1] opened from [::1]:45148
+Aug 31 19:52 : client: [1] closed
+Aug 31 19:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 31 19:52 : client: [2] opened from [::1]:45150
+Aug 31 19:52 : client: [2] closed
+Aug 31 19:55 : client: [3] opened from [::1]:45154
+Aug 31 19:55 : client: [4] opened from [::1]:45156
+Aug 31 19:55 : client: [4] closed
+Aug 31 19:56 : client: [5] opened from [::1]:45162
+Aug 31 19:56 : client: [6] opened from [::1]:45164
+Aug 31 19:56 : client: [6] closed
+Aug 31 19:56 : client: [5] closed
+Aug 31 19:57 : client: [3] closed
+Aug 31 19:57 : client: [7] opened from [::1]:45166
+Aug 31 19:57 : client: [7] closed
+Aug 31 19:57 : client: [0] closed
+Aug 31 19:57 : client: [8] opened from [::1]:45168
+Aug 31 19:57 : client: [9] opened from [::1]:45170
+Aug 31 19:57 : client: [9] closed
+Aug 31 19:57 : client: [10] opened from [::1]:45172
+Aug 31 19:57 : client: [11] opened from [::1]:45174
+Aug 31 19:57 : client: [11] closed
+Aug 31 19:58 : client: [12] opened from [::1]:45176
+Aug 31 19:58 : client: [13] opened from [::1]:45178
+Aug 31 19:58 : client: [12] closed
+Aug 31 19:58 : client: [13] closed
+Aug 31 19:58 : client: [8] closed
+Aug 31 19:58 : client: [10] closed
+Aug 31 19:58 : player: played "Cássia Eller - O segundo sol.mp3"
+Sep 02 19:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 02 19:57 : client: [0] opened from [::1]:49918
+Sep 02 19:57 : client: [1] opened from [::1]:49920
+Sep 02 19:57 : client: [1] closed
+Sep 02 19:59 : client: [0] closed
+Sep 03 02:50 : player: played "Cássia Eller - O segundo sol.mp3"
+Sep 07 14:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 14:20 : client: [0] opened from [::1]:48778
+Sep 07 14:20 : client: [1] opened from [::1]:48780
+Sep 07 14:20 : client: [1] closed
+Sep 07 14:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 14:20 : client: [0] closed
+Sep 07 14:20 : client: [2] opened from [::1]:48782
+Sep 07 14:20 : client: [3] opened from [::1]:48784
+Sep 07 14:20 : client: [3] closed
+Sep 07 14:20 : client: [2] closed
+Sep 07 15:51 : client: [4] opened from [::1]:49108
+Sep 07 15:51 : client: [5] opened from [::1]:49110
+Sep 07 15:51 : client: [5] closed
+Sep 07 15:51 : client: [6] opened from [::1]:49116
+Sep 07 15:51 : client: [6] closed
+Sep 07 15:51 : client: [4] closed
+Sep 07 15:51 : client: [7] opened from [::1]:49118
+Sep 07 15:51 : client: [8] opened from [::1]:49120
+Sep 07 15:51 : client: [8] closed
+Sep 07 15:51 : client: [7] closed
+Sep 07 15:56 : player: played "Fagner, Zé Ramalho - Chão de Giz.mp3"
+Sep 07 15:59 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Sep 07 16:03 : client: [9] opened from [::1]:49528
+Sep 07 16:03 : client: [10] opened from [::1]:49530
+Sep 07 16:03 : client: [10] closed
+Sep 07 16:04 : client: [9] closed
+Sep 07 16:04 : client: [11] opened from [::1]:49534
+Sep 07 16:04 : client: [12] opened from [::1]:49536
+Sep 07 16:04 : client: [12] closed
+Sep 07 16:04 : client: [11] closed
+Sep 07 16:05 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Sep 07 16:05 : client: [13] opened from [::1]:49542
+Sep 07 16:05 : client: [14] opened from [::1]:49544
+Sep 07 16:05 : client: [14] closed
+Sep 07 16:05 : client: [13] closed
+Sep 07 18:49 : client: [15] opened from [::1]:50438
+Sep 07 18:49 : client: [16] opened from [::1]:50440
+Sep 07 18:49 : client: [16] closed
+Sep 07 18:49 : client: [17] opened from [::1]:50442
+Sep 07 18:49 : client: [17] closed
+Sep 07 18:50 : client: [18] opened from [::1]:50444
+Sep 07 18:50 : client: [19] opened from [::1]:50446
+Sep 07 18:50 : client: [19] closed
+Sep 07 18:50 : client: [18] closed
+Sep 07 18:51 : client: [20] opened from [::1]:50452
+Sep 07 18:51 : client: [21] opened from [::1]:50454
+Sep 07 18:51 : client: [21] closed
+Sep 07 18:52 : client: [22] opened from [::1]:50456
+Sep 07 18:52 : client: [23] opened from [::1]:50458
+Sep 07 18:52 : client: [23] closed
+Sep 07 18:53 : client: [24] opened from [::1]:50460
+Sep 07 18:53 : client: [25] opened from [::1]:50462
+Sep 07 18:53 : client: [26] opened from [::1]:50464
+Sep 07 18:53 : client: [24] closed
+Sep 07 18:53 : client: [25] closed
+Sep 07 18:53 : client: [26] closed
+Sep 07 18:58 : player: played "Cássia Eller - O segundo sol.mp3"
+Sep 07 18:59 : client: [15] closed
+Sep 07 18:59 : client: [22] closed
+Sep 07 18:59 : client: [20] closed
+Sep 07 22:55 : client: [27] opened from [::1]:51618
+Sep 07 22:56 : client: [27] closed
+Sep 12 00:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 12 00:00 : client: [0] opened from [::1]:44928
+Sep 12 00:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 12 00:00 : client: [1] opened from [::1]:44932
+Sep 12 00:00 : client: [1] closed
+Sep 12 00:03 : client: [0] closed
+Sep 12 01:13 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Sep 15 00:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 15 00:08 : client: [0] opened from [::1]:35620
+Sep 15 00:08 : client: [1] opened from [::1]:35622
+Sep 15 00:08 : client: [1] closed
+Sep 15 00:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 15 00:47 : client: [0] closed
+Sep 15 02:40 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Sep 26 16:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 16:29 : client: [0] opened from [::1]:45310
+Sep 26 16:29 : client: [1] opened from [::1]:45312
+Sep 26 16:29 : client: [1] closed
+Sep 26 16:29 : client: [0] closed
+Sep 26 16:29 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Sep 28 19:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 19:11 : client: [0] opened from [::1]:35374
+Sep 28 19:11 : client: [1] opened from [::1]:35376
+Sep 28 19:11 : client: [1] closed
+Sep 28 19:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 19:11 : client: [2] opened from [::1]:35378
+Sep 28 19:11 : client: [2] closed
+Sep 28 19:12 : client: [0] closed
+Sep 28 19:12 : client: [3] opened from [::1]:35380
+Sep 28 19:12 : client: [4] opened from [::1]:35382
+Sep 28 19:12 : client: [4] closed
+Sep 28 19:16 : player: played "Cássia Eller - O segundo sol.mp3"
+Sep 28 19:16 : client: [3] closed
+Sep 28 19:16 : client: [5] opened from [::1]:35438
+Sep 28 19:16 : client: [5] closed
+Sep 28 19:17 : client: [6] opened from [::1]:35440
+Sep 28 19:17 : client: [7] opened from [::1]:35442
+Sep 28 19:17 : client: [7] closed
+Sep 28 19:18 : client: [6] closed
+Sep 28 19:19 : client: [8] opened from [::1]:35468
+Sep 28 19:19 : client: [9] opened from [::1]:35470
+Sep 28 19:19 : client: [9] closed
+Sep 28 19:19 : client: [8] closed
+Sep 28 19:19 : client: [10] opened from [::1]:35472
+Sep 28 19:19 : client: [11] opened from [::1]:35474
+Sep 28 19:19 : client: [11] closed
+Sep 28 19:19 : client: [10] closed
+Sep 28 19:19 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Oct 17 23:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 23:43 : client: [0] opened from [::1]:55784
+Oct 17 23:43 : update: added /Cartola - Preciso Me Encontrar-fUjOfsoBhMY.mp3
+Oct 17 23:43 : client: [0] closed
+Oct 17 23:43 : client: [1] opened from [::1]:55786
+Oct 17 23:43 : client: [2] opened from [::1]:55788
+Oct 17 23:43 : client: [2] closed
+Oct 17 23:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 23:43 : client: [3] opened from [::1]:55790
+Oct 17 23:43 : client: [3] closed
+Oct 17 23:45 : client: [1] closed
+Oct 17 23:46 : client: [4] opened from [::1]:55798
+Oct 17 23:46 : client: [5] opened from [::1]:55800
+Oct 17 23:46 : client: [5] closed
+Oct 17 23:46 : player: played "Cartola - Preciso Me Encontrar-fUjOfsoBhMY.mp3"
+Oct 17 23:46 : client: [4] closed
+Oct 17 23:47 : client: [6] opened from [::1]:55802
+Oct 17 23:47 : update: removing Cartola - Preciso Me Encontrar-fUjOfsoBhMY.mp3
+Oct 17 23:47 : client: [6] closed
+Oct 17 23:47 : client: [7] opened from [::1]:55804
+Oct 17 23:47 : client: [7] closed
+Oct 28 17:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 17:11 : client: [0] opened from [::1]:54414
+Oct 28 17:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 17:12 : client: [0] closed
+Oct 28 17:12 : client: [1] opened from [::1]:54418
+Oct 28 17:12 : client: [2] opened from [::1]:54420
+Oct 28 17:12 : client: [2] closed
+Oct 28 17:12 : client: [1] closed
+Oct 28 17:12 : client: [3] opened from [::1]:54422
+Oct 28 17:12 : client: [4] opened from [::1]:54424
+Oct 28 17:12 : client: [4] closed
+Oct 28 17:12 : client: [5] opened from [::1]:54434
+Oct 28 17:12 : client: [5] closed
+Oct 28 17:12 : client: [6] opened from [::1]:54436
+Oct 28 17:12 : client: [6] closed
+Oct 28 17:12 : client: [7] opened from [::1]:54438
+Oct 28 17:12 : client: [7] closed
+Oct 28 17:12 : client: [3] closed
+Oct 28 17:12 : player: played "Cássia Eller - O segundo sol.mp3"
+Oct 28 17:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 17:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 17:20 : client: [0] opened from [::1]:54452
+Oct 28 17:20 : client: [1] opened from [::1]:54454
+Oct 28 17:20 : client: [1] closed
+Oct 28 17:20 : client: [0] closed
+Oct 28 17:20 : client: [2] opened from [::1]:54456
+Oct 28 17:20 : client: [3] opened from [::1]:54458
+Oct 28 17:20 : client: [3] closed
+Oct 28 17:20 : client: [2] closed
+Oct 28 17:20 : client: [4] opened from [::1]:54460
+Oct 28 17:20 : client: [5] opened from [::1]:54462
+Oct 28 17:20 : client: [5] closed
+Oct 28 17:20 : client: [4] closed
+Oct 28 17:20 : client: [6] opened from [::1]:54464
+Oct 28 17:20 : client: [7] opened from [::1]:54466
+Oct 28 17:20 : client: [7] closed
+Oct 28 17:21 : client: [6] closed
+Oct 28 17:21 : client: [8] opened from [::1]:54470
+Oct 28 17:21 : client: [9] opened from [::1]:54472
+Oct 28 17:21 : client: [9] closed
+Oct 28 17:21 : client: [8] closed
+Oct 28 17:21 : player: played "Cássia Eller - O segundo sol.mp3"
+Oct 28 17:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 17:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 17:22 : client: [0] opened from [::1]:54474
+Oct 28 17:22 : client: [1] opened from [::1]:54476
+Oct 28 17:22 : client: [1] closed
+Oct 28 17:22 : client: [0] closed
+Oct 28 17:22 : player: played "Cássia Eller - O segundo sol.mp3"
+Nov 29 04:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 04:09 : update: added /Raul seixas - Metamorfose ambulante.mp3
+Nov 29 04:09 : update: added /Guns N' Roses - Sweet Child O' Mine.mp3
+Nov 29 04:09 : update: added /Fagner, Zé Ramalho - Chão de Giz.mp3
+Nov 29 04:09 : update: added /Cássia Eller - O segundo sol.mp3
+Nov 29 04:09 : client: [0] opened from [::1]:42718
+Nov 29 04:09 : client: [0] closed
+Nov 29 04:10 : client: [1] opened from [::1]:42720
+Nov 29 04:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 04:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 04:10 : client: [2] opened from [::1]:42722
+Nov 29 04:10 : client: [2] closed
+Nov 29 04:10 : client: [1] closed
+Nov 29 04:11 : client: [3] opened from 127.0.0.1:58708
+Nov 29 04:13 : client: [3] closed
+Nov 29 04:13 : client: [4] opened from 127.0.0.1:58712
+Nov 29 04:14 : client: [5] opened from 127.0.0.1:58714
+Nov 29 04:14 : client: [5] closed
+Nov 29 04:14 : client: [4] closed
+Nov 29 04:14 : client: [6] opened from 127.0.0.1:58716
+Nov 29 04:15 : client: [6] closed
+Nov 29 04:15 : client: [7] opened from 127.0.0.1:58718
+Nov 29 04:15 : client: [7] closed
+Nov 29 04:15 : client: [8] opened from 127.0.0.1:58720
+Nov 29 04:15 : client: [8] closed
+Nov 29 04:15 : client: [9] opened from 127.0.0.1:58722
+Nov 29 04:15 : client: [9] closed
+Nov 29 04:16 : client: [10] opened from 127.0.0.1:58724
+Nov 29 04:16 : client: [10] closed
+Nov 29 04:16 : client: [11] opened from 127.0.0.1:58730
+Nov 29 04:16 : client: [11] closed
+Nov 29 04:16 : client: [12] opened from 127.0.0.1:58732
+Nov 29 04:16 : client: [12] closed
+Nov 29 04:16 : client: [13] opened from 127.0.0.1:58734
+Nov 29 04:16 : client: [13] closed
+Nov 29 04:17 : client: [14] opened from 127.0.0.1:58736
+Nov 29 04:17 : client: [14] closed
+Nov 29 04:17 : client: [15] opened from 127.0.0.1:58738
+Nov 29 04:17 : client: [15] closed
+Nov 29 04:17 : client: [16] opened from 127.0.0.1:58740
+Nov 29 04:17 : client: [16] closed
+Nov 29 04:18 : client: [17] opened from 127.0.0.1:58742
+Nov 29 04:18 : client: [17] closed
+Nov 29 04:18 : client: [18] opened from 127.0.0.1:58744
+Nov 29 04:18 : client: [18] closed
+Nov 29 04:18 : client: [19] opened from 127.0.0.1:58748
+Nov 29 04:18 : client: [19] closed
+Nov 29 04:18 : client: [20] opened from 127.0.0.1:58750
+Nov 29 04:19 : client: [20] closed
+Nov 29 04:23 : client: [21] opened from 127.0.0.1:58792
+Nov 29 04:23 : client: [21] closed
+Nov 29 04:26 : client: [22] opened from 127.0.0.1:58800
+Nov 29 04:26 : client: [22] closed
+Nov 29 04:27 : client: [23] opened from 127.0.0.1:58802
+Nov 29 04:28 : client: [23] closed
+Nov 29 04:28 : client: [24] opened from 127.0.0.1:58804
+Nov 29 04:28 : client: [24] closed
+Nov 29 04:28 : client: [25] opened from 127.0.0.1:58806
+Nov 29 04:29 : client: [25] closed
+Nov 29 04:29 : client: [26] opened from 127.0.0.1:58810
+Nov 29 04:29 : client: [26] closed
+Nov 29 04:29 : client: [27] opened from 127.0.0.1:58812
+Nov 29 04:30 : client: [27] closed
+Nov 29 04:30 : client: [28] opened from 127.0.0.1:58814
+Nov 29 04:31 : client: [28] closed
+Nov 29 04:31 : client: [29] opened from 127.0.0.1:58820
+Nov 29 04:31 : client: [29] closed
+Nov 29 04:31 : client: [30] opened from 127.0.0.1:58822
+Nov 29 04:32 : client: [30] closed
+Nov 29 04:32 : client: [31] opened from 127.0.0.1:58824
+Nov 29 04:32 : client: [31] closed
+Nov 29 04:32 : client: [32] opened from 127.0.0.1:58826
+Nov 29 04:32 : client: [32] closed
+Nov 29 04:32 : client: [33] opened from 127.0.0.1:58828
+Nov 29 04:33 : client: [33] closed
+Nov 29 04:33 : client: [34] opened from 127.0.0.1:58830
+Nov 29 04:33 : client: [34] closed
+Nov 29 04:33 : client: [35] opened from 127.0.0.1:58832
+Nov 29 04:33 : client: [35] closed
+Nov 29 04:33 : client: [36] opened from 127.0.0.1:58834
+Nov 29 04:33 : client: [36] closed
+Nov 29 04:33 : client: [37] opened from 127.0.0.1:58838
+Nov 29 04:34 : client: [37] closed
+Nov 29 04:34 : client: [38] opened from 127.0.0.1:58840
+Nov 29 04:34 : client: [38] closed
+Nov 29 04:34 : client: [39] opened from 127.0.0.1:58842
+Nov 29 04:34 : client: [39] closed
+Nov 29 04:34 : client: [40] opened from 127.0.0.1:58844
+Nov 29 04:34 : client: [40] closed
+Nov 29 04:34 : client: [41] opened from 127.0.0.1:58846
+Nov 29 04:35 : client: [41] closed
+Nov 29 04:35 : client: [42] opened from 127.0.0.1:58848
+Nov 29 04:35 : client: [42] closed
+Nov 29 04:35 : client: [43] opened from 127.0.0.1:58850
+Nov 29 04:35 : client: [43] closed
+Nov 29 04:35 : client: [44] opened from 127.0.0.1:58852
+Nov 29 04:35 : client: [44] closed
+Nov 29 04:35 : client: [45] opened from 127.0.0.1:58854
+Nov 29 04:35 : client: [45] closed
+Nov 29 04:35 : client: [46] opened from 127.0.0.1:58856
+Nov 29 04:36 : client: [46] closed
+Nov 29 05:38 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Nov 29 05:43 : player: played "Cássia Eller - O segundo sol.mp3"
+Nov 29 16:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 16:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 16:00 : exception: Failed to enable output "pulse audio" (pulse)
+Nov 29 16:00 : exception: nested: pa_context_connect() has failed: Connection refused
+Nov 29 16:06 : player: played "Cássia Eller - O segundo sol.mp3"
+Nov 29 16:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 16:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 16:07 : client: [0] opened from [::1]:50734
+Nov 29 16:07 : client: [1] opened from [::1]:50736
+Nov 29 16:07 : client: [1] closed
+Nov 29 16:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 16:07 : player: played "Cássia Eller - O segundo sol.mp3"
+Nov 29 16:07 : client: [0] closed
+Nov 29 16:50 : client: [2] opened from 127.0.0.1:59300
+Nov 29 16:50 : client: [3] opened from [::1]:51520
+Nov 29 16:50 : client: [4] opened from [::1]:51522
+Nov 29 16:50 : client: [4] closed
+Nov 29 16:51 : client: [5] opened from 127.0.0.1:59320
+Nov 29 16:51 : player: played "Cássia Eller - O segundo sol.mp3"
+Nov 29 16:51 : client: [5] closed
+Nov 29 16:51 : client: [6] opened from [::1]:51526
+Nov 29 16:51 : client: [6] closed
+Nov 29 16:51 : client: [7] opened from [::1]:51528
+Nov 29 16:51 : client: [7] closed
+Nov 29 16:51 : client: [8] opened from [::1]:51530
+Nov 29 16:51 : client: [8] closed
+Nov 29 16:51 : client: [9] opened from [::1]:51532
+Nov 29 16:51 : client: [9] closed
+Nov 29 16:51 : client: [10] opened from 127.0.0.1:59330
+Nov 29 16:51 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Nov 29 16:51 : client: [10] closed
+Nov 29 16:51 : client: [11] opened from 127.0.0.1:59332
+Nov 29 16:51 : client: [11] closed
+Nov 29 16:51 : client: [12] opened from [::1]:51538
+Nov 29 16:51 : client: [12] closed
+Nov 29 16:51 : client: [13] opened from 127.0.0.1:59336
+Nov 29 16:51 : client: [13] closed
+Nov 29 16:51 : client: [14] opened from 127.0.0.1:59338
+Nov 29 16:51 : client: [14] closed
+Nov 29 16:51 : client: [15] opened from [::1]:51544
+Nov 29 16:51 : client: [15] closed
+Nov 29 16:51 : client: [16] opened from 127.0.0.1:59342
+Nov 29 16:51 : client: [16] closed
+Nov 29 16:51 : client: [17] opened from 127.0.0.1:59344
+Nov 29 16:51 : client: [17] closed
+Nov 29 16:51 : client: [18] opened from [::1]:51550
+Nov 29 16:51 : client: [18] closed
+Nov 29 16:51 : client: [19] opened from [::1]:51552
+Nov 29 16:51 : client: [19] closed
+Nov 29 16:51 : client: [20] opened from 127.0.0.1:59350
+Nov 29 16:51 : client: [20] closed
+Nov 29 16:51 : client: [21] opened from [::1]:51556
+Nov 29 16:51 : client: [21] closed
+Nov 29 16:51 : client: [22] opened from 127.0.0.1:59354
+Nov 29 16:51 : client: [22] closed
+Nov 29 16:51 : client: [23] opened from [::1]:51560
+Nov 29 16:51 : client: [23] closed
+Nov 29 16:51 : client: [24] opened from 127.0.0.1:59358
+Nov 29 16:51 : client: [24] closed
+Nov 29 16:51 : client: [25] opened from 127.0.0.1:59360
+Nov 29 16:51 : client: [25] closed
+Nov 29 16:51 : client: [26] opened from [::1]:51566
+Nov 29 16:51 : client: [26] closed
+Nov 29 16:51 : client: [27] opened from 127.0.0.1:59364
+Nov 29 16:51 : client: [27] closed
+Nov 29 16:51 : client: [28] opened from [::1]:51570
+Nov 29 16:51 : client: [28] closed
+Nov 29 16:51 : client: [29] opened from 127.0.0.1:59368
+Nov 29 16:51 : client: [29] closed
+Nov 29 16:51 : client: [30] opened from [::1]:51574
+Nov 29 16:51 : client: [30] closed
+Nov 29 16:51 : client: [31] opened from 127.0.0.1:59372
+Nov 29 16:51 : client: [31] closed
+Nov 29 16:51 : client: [32] opened from [::1]:51578
+Nov 29 16:51 : client: [32] closed
+Nov 29 16:51 : client: [33] opened from 127.0.0.1:59376
+Nov 29 16:51 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Nov 29 16:51 : client: [33] closed
+Nov 29 16:51 : client: [34] opened from 127.0.0.1:59378
+Nov 29 16:51 : client: [34] closed
+Nov 29 16:51 : client: [35] opened from [::1]:51584
+Nov 29 16:51 : client: [35] closed
+Nov 29 16:51 : client: [36] opened from 127.0.0.1:59382
+Nov 29 16:51 : client: [36] closed
+Nov 29 16:51 : client: [37] opened from [::1]:51588
+Nov 29 16:51 : client: [37] closed
+Nov 29 16:51 : client: [38] opened from 127.0.0.1:59386
+Nov 29 16:51 : client: [38] closed
+Nov 29 16:51 : client: [39] opened from 127.0.0.1:59388
+Nov 29 16:51 : client: [39] closed
+Nov 29 16:51 : client: [40] opened from [::1]:51594
+Nov 29 16:51 : client: [40] closed
+Nov 29 16:51 : client: [41] opened from [::1]:51596
+Nov 29 16:51 : client: [41] closed
+Nov 29 16:51 : client: [3] closed
+Nov 29 16:51 : client: [42] opened from [::1]:51602
+Nov 29 16:51 : client: [43] opened from [::1]:51604
+Nov 29 16:51 : client: [43] closed
+Nov 29 16:51 : client: [42] closed
+Nov 29 16:52 : player: played "Raul seixas - Metamorfose ambulante.mp3"
+Nov 29 16:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 16:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 16:53 : client: [0] opened from 127.0.0.1:59472
+Nov 29 16:56 : client: [0] closed
+Nov 30 02:18 : client: [1] opened from [::1]:55450
+Nov 30 02:18 : client: [2] opened from [::1]:55452
+Nov 30 02:18 : client: [2] closed
+Nov 30 02:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 30 02:18 : client: [3] opened from [::1]:55454
+Nov 30 02:18 : client: [3] closed
+Nov 30 02:18 : client: [1] closed
+Nov 30 02:18 : client: [4] opened from [::1]:55456
+Nov 30 02:18 : client: [5] opened from [::1]:55458
+Nov 30 02:18 : client: [5] closed
+Nov 30 02:18 : client: [4] closed
+Nov 30 02:18 : client: [6] opened from [::1]:55460
+Nov 30 02:18 : client: [7] opened from [::1]:55462
+Nov 30 02:18 : client: [7] closed
+Nov 30 02:18 : client: [6] closed
+Nov 30 02:19 : client: [8] opened from [::1]:55496
+Nov 30 02:19 : client: [9] opened from [::1]:55498
+Nov 30 02:19 : client: [9] closed
+Nov 30 02:19 : client: [8] closed
+Nov 30 05:48 : player: played "Cássia Eller - O segundo sol.mp3"
+Dec 02 03:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 03:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 03:54 : client: [0] opened from [::1]:54956
+Dec 02 03:54 : client: [1] opened from [::1]:54958
+Dec 02 03:54 : client: [1] closed
+Dec 02 03:54 : client: [0] closed
+Dec 02 03:54 : client: [2] opened from [::1]:54960
+Dec 02 03:54 : client: [3] opened from [::1]:54962
+Dec 02 03:54 : client: [3] closed
+Dec 02 03:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 03:55 : client: [2] closed
+Dec 02 03:55 : client: [4] opened from [::1]:54966
+Dec 02 03:55 : client: [5] opened from [::1]:54968
+Dec 02 03:55 : client: [5] closed
+Dec 02 03:58 : client: [6] opened from [::1]:54986
+Dec 02 03:58 : client: [7] opened from [::1]:54988
+Dec 02 03:58 : client: [7] closed
+Dec 02 03:58 : client: [6] closed
+Dec 02 03:58 : client: [8] opened from [::1]:54990
+Dec 02 03:58 : client: [9] opened from [::1]:54992
+Dec 02 03:58 : client: [9] closed
+Dec 02 03:58 : client: [8] closed
+Dec 02 03:58 : client: [10] opened from [::1]:55002
+Dec 02 03:58 : client: [11] opened from [::1]:55004
+Dec 02 03:58 : client: [11] closed
+Dec 02 03:59 : player: played "Cássia Eller - O segundo sol.mp3"
+Dec 02 03:59 : client: [12] opened from [::1]:55006
+Dec 02 03:59 : client: [13] opened from [::1]:55008
+Dec 02 03:59 : client: [12] closed
+Dec 02 03:59 : client: [13] closed
+Dec 02 03:59 : client: [4] closed
+Dec 02 03:59 : client: [14] opened from [::1]:55010
+Dec 02 03:59 : client: [15] opened from [::1]:55012
+Dec 02 03:59 : client: [15] closed
+Dec 02 04:01 : client: [14] closed
+Dec 02 04:01 : client: [16] opened from [::1]:55032
+Dec 02 04:01 : client: [17] opened from [::1]:55034
+Dec 02 04:01 : client: [17] closed
+Dec 02 04:03 : player: played "Fagner, Zé Ramalho - Chão de Giz.mp3"
+Dec 02 04:03 : client: [18] opened from [::1]:55044
+Dec 02 04:03 : client: [19] opened from [::1]:55046
+Dec 02 04:03 : client: [19] closed
+Dec 02 04:03 : client: [18] closed
+Dec 02 04:08 : client: [10] closed
+Dec 02 04:08 : client: [16] closed
+Dec 02 04:08 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
+Dec 07 05:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 05:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 05:06 : client: [0] opened from [::1]:41606
+Dec 07 05:06 : client: [1] opened from [::1]:41608
+Dec 07 05:06 : client: [1] closed
+Dec 07 05:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 05:06 : client: [0] closed
+Dec 07 05:06 : player: played "Guns N' Roses - Sweet Child O' Mine.mp3"
